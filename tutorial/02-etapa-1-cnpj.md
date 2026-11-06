@@ -11,7 +11,7 @@ npm run etapa1
 Vai dar tudo vermelho, e é para ser assim. Procure uma linha como esta:
 
 ```
-Error: Etapa 1: escreva a função limparCnpj
+error: 'Etapa 1: escreva a função limparCnpj'
 ```
 
 Um teste chama a sua função e compara o resultado com o esperado:
