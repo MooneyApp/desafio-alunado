@@ -1,0 +1,20 @@
+{
+  "name": "desafio-alunado",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Desafio de JavaScript: sincronizar o alunado por escola com um banco Supabase.",
+  "type": "module",
+  "engines": { "node": ">=22.9" },
+  "scripts": {
+    "etapa1": "node --test testes/etapa1.test.js",
+    "etapa2": "node --test testes/etapa2.test.js",
+    "etapa3": "node --test testes/etapa3.test.js",
+    "etapa4": "node --test testes/etapa4.test.js",
+    "etapa5": "node --test testes/etapa5.test.js",
+    "test": "node --test \"testes/*.test.js\"",
+    "executar": "node --env-file-if-exists=.env src/executar.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.45.0"
+  }
+}

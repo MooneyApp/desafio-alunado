@@ -1,0 +1,7 @@
+[
+  { "cnpj": "00.000.001/0001-00", "instituicoes": "Escola Exemplo Aurora", "ei": 40, "efai": 120, "efaf": 95, "em": 0, "outros": 0 },
+  { "cnpj": "00000002000100", "instituicoes": "Colégio Fictício Horizonte", "ei": "0", "efai": "210", "efaf": "180", "em": "75", "outros": "3" },
+  { "cnpj": "00.000.003/0001-00", "instituicoes": "Rede Imaginária + Rede Imaginária Unidade 2", "ei": 15, "efai": 60, "efaf": null, "em": null, "outros": 0 },
+  { "cnpj": "", "instituicoes": "Escola Sem Cadastro", "ei": 10, "efai": 10, "efaf": 0, "em": 0, "outros": 0 },
+  { "cnpj": null, "instituicoes": "Escola Cnpj Nulo", "ei": 5, "efai": 0, "efaf": 0, "em": 0, "outros": 0 }
+]
