@@ -21,7 +21,7 @@ O Supabase é um serviço de banco de dados na internet. Você vai criar um proj
 1. Crie uma conta e um projeto em [supabase.com](https://supabase.com). Guarde a senha do banco em um lugar seguro.
 2. No menu do projeto, abra o **SQL Editor**.
 3. Cole o conteúdo de `supabase/tabela.sql` e clique em **Run**. Isso cria a tabela.
-4. Copie o arquivo de exemplo de configuração:
+4. No terminal, copie o arquivo de exemplo de configuração. O arquivo `.env` vai aparecer na lista à esquerda do VS Code:
 
 ```bash
 cp .env.example .env
@@ -66,7 +66,7 @@ Devem aparecer 3 linhas novas, 6 no total.
 | `Could not find the table` | O `tabela.sql` não foi rodado, ou o `SUPABASE_URL` aponta para outro projeto |
 | `Invalid API key` | A chave está errada ou incompleta |
 | `permission denied` ou `row-level security` | Você usou a chave pública, e não a secreta |
-| `Gravando em: banco de mentira` | O `.env` não está na raiz do projeto ou algum campo está vazio |
+| `Gravando em: banco de mentira` | O `.env` não está na raiz do projeto, algum campo está vazio ou o arquivo não foi salvo (`Ctrl+S`) |
 
 **Pronto para o próximo passo quando:** você viu as linhas no Table Editor.
 

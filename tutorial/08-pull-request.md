@@ -24,7 +24,7 @@ Se a `main` mudou enquanto você trabalhava, atualize a sua branch:
 git pull --no-rebase origin main
 ```
 
-Se o editor abrir pedindo uma mensagem, apenas salve e feche. Se aparecer a palavra `CONFLICT`, peça ajuda: conflito é normal quando duas pessoas mexem na mesma linha.
+Se o VS Code abrir uma aba pedindo uma mensagem, apenas feche essa aba. Se aparecer a palavra `CONFLICT`, peça ajuda: conflito é normal quando duas pessoas mexem na mesma linha.
 
 Rode `npm test` de novo e envie com `git push`.
 
@@ -40,7 +40,7 @@ Confira a aba **Files changed**. Ela mostra exatamente o que vai ser revisado. S
 
 ## 4. Espere os testes do GitHub
 
-O GitHub roda `npm test` sozinho em uma máquina dele. Isso aparece como **Testes** no fim da página do PR. Se ficar vermelho, clique em **Details** para ler o erro. Corrija, faça um commit e um push: o PR se atualiza sozinho.
+O GitHub roda `npm test` sozinho em duas máquinas dele, uma Linux e uma Windows. Isso aparece como `testes` e `testes-windows` no fim da página do PR. Se ficar vermelho, clique em **Details** para ler o erro. Corrija, faça um commit e um push: o PR se atualiza sozinho.
 
 ## 5. Revisão
 

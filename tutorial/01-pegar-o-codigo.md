@@ -11,14 +11,20 @@
 
 ## 1. Baixar o repositório
 
-Escolha a pasta onde quer guardar o projeto e rode:
+Vamos criar uma pasta `projetos` dentro da sua pasta de usuário (`C:\Users\seu-nome`) e baixar o código nela:
 
 ```bash
+mkdir -p ~/projetos
+cd ~/projetos
 git clone https://github.com/MooneyApp/desafio-alunado.git
 cd desafio-alunado
 ```
 
-`cd` significa "entrar na pasta". A partir daqui, rode todos os comandos de dentro de `desafio-alunado`.
+`cd` significa "entrar na pasta", e `~` é um atalho para a sua pasta de usuário. A partir daqui, rode todos os comandos de dentro de `desafio-alunado`. A linha do terminal mostra em qual pasta você está.
+
+**Evite as pastas sincronizadas pelo OneDrive**, como Documentos e Área de Trabalho. A sincronização costuma deixar o `npm install` lento e pode causar erros.
+
+Quando voltar ao projeto outro dia, abra o VS Code, use **File → Open Recent** e abra um terminal novo. Ele já abre na pasta certa.
 
 ## 2. Instalar as dependências
 
@@ -50,7 +56,7 @@ A primeira linha precisa dizer `On branch desafio/seu-nome`. **Nunca trabalhe di
 code .
 ```
 
-Se o comando `code` não existir, abra o VS Code e use **File → Open Folder**.
+Isso abre o projeto em uma janela nova do VS Code. **Continue usando o terminal dessa janela nova** (**Terminal → New Terminal**), que já abre na pasta certa. Se o comando `code` não existir, use **File → Open Folder** e escolha a pasta `desafio-alunado` dentro de `projetos`.
 
 Dê uma olhada nas pastas:
 
